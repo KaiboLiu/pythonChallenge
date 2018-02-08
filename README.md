@@ -1,2 +1,2 @@
 # pythonChallenge
-codes for the interesting riddles from [Python Challenge](www.pythonchallenge.com)
+codes for the interesting riddles from [Python Challenge](http://www.pythonchallenge.com)
