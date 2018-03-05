@@ -1,4 +1,5 @@
 # pythonChallenge
+![](https://img.shields.io/badge/language-python-orange.svg)  
 codes for the interesting riddles from [Python Challenge](http://www.pythonchallenge.com)
 
 
