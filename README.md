@@ -1,5 +1,6 @@
 # pythonChallenge
 ![](https://img.shields.io/badge/language-python-orange.svg)  [![codebeat badge](https://codebeat.co/badges/edeefa19-cf81-49c6-a99e-1098f53d3019)](https://codebeat.co/projects/github-com-kaiboliu-pythonchallenge-master)
+
 codes for the interesting riddles from [Python Challenge](http://www.pythonchallenge.com)
 
 
