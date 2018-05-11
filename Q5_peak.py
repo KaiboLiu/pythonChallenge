@@ -37,5 +37,5 @@ def q5():
 if __name__ == "__main__":
     url = 'http://www.pythonchallenge.com/pc/def/peak.html'
     #test1()
-    test2()
+    test1()
     q5()
