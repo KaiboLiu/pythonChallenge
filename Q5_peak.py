@@ -1,16 +1,7 @@
 import urllib
 import pickle
 
-def test1():
-    data_url = 'http://www.pythonchallenge.com/pc/def/banner.p'
-    data_file = urllib.urlopen(data_url)
-    obj = pickle.load(data_file)
-    print('type:', type(obj))
-    print('len:', len(obj))
-    print(obj)
-
-
-def test2():
+def test():
     import pprint
     data_url = 'http://www.pythonchallenge.com/pc/def/banner.p'
     data_file = urllib.urlopen(data_url)
@@ -22,7 +13,7 @@ def test2():
 
 
 def q5():
-    obj = test2()
+    obj = test()
     for line in obj:
         s = ''
         for pair in line:
@@ -36,6 +27,5 @@ def q5():
     
 if __name__ == "__main__":
     url = 'http://www.pythonchallenge.com/pc/def/peak.html'
-    #test1()
-    test1()
+    #test()
     q5()
