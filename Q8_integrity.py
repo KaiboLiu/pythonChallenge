@@ -1,6 +1,13 @@
 import time
 import bz2
 
+'''
+repr(): display a python obj in format of string(not to convert)
+bz2.compress(text): compress
+bz2.decompress(data): decompress
+'''
+
+
 
 def test1():
     text = "hello,bz2!" * 100000
@@ -8,7 +15,7 @@ def test1():
     print('length of text {}'.format(len(text)))
     print('length of compressed data {}'.format(len(data)))
     print('length of compress rate {:.2%}'.format(len(data)*1.0/len(text)))
-    print("data: {}".format(repr(data)))  # repr is a function to convert obj to str
+    print("data: {}".format(repr(data)))  # repr is a function to display obj in str
 
     text = bz2.decompress(data)
     print('data: {}\ntext: {}...'.format(repr(data), text[:50]))
@@ -34,3 +41,4 @@ if __name__ == "__main__":
     test1()
     q8()
     print('[finished in {:.5f} s]'.format(time.time()-t0))
+
