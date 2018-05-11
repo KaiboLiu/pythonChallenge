@@ -23,7 +23,7 @@ def q6(zfile,n,i,comment):
 
     
 if __name__ == "__main__":
-    url = 'http://www.pythonchallenge.com/pc/def/peak.html'
+    url = 'http://www.pythonchallenge.com/pc/def/channel.html'
     #test1()
     zfile = zipfile.ZipFile("Q6_channel.zip")
     q6(zfile, '90052', 0, '')
